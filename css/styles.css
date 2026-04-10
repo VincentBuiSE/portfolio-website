@@ -1,13 +1,13 @@
 body {
   font-family: "Inter", sans-serif;
-  background: linear-gradient(180deg, #0a110f 0%, #101c18 60%, #13241d 100%);
+  background: linear-gradient(180deg, #1a2c25 0%, #223f33 60%, #284c3c 100%);
   color: #e9edf6;
   min-height: 100vh;
   padding-top: 80px !important;
 }
 
 .navbar {
-  background: rgba(10, 15, 30, 0.85);
+  background: rgba(26, 44, 37, 0.85);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
@@ -27,10 +27,10 @@ body {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 14px;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
 }
 
 #projects .card:hover {
@@ -89,7 +89,7 @@ h5 {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: linear-gradient(145deg, #0f241a, #163625);
+  background: linear-gradient(145deg, #223f33, #2d5644);
   display: flex;
   align-items: center;
   justify-content: center;
