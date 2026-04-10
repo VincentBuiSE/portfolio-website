@@ -3,7 +3,7 @@ body {
   background: linear-gradient(180deg, #0a110f 0%, #101c18 60%, #13241d 100%);
   color: #e9edf6;
   min-height: 100vh;
-  padding-top: 80px;
+  padding-top: 80px !important;
 }
 
 .navbar {
@@ -33,6 +33,11 @@ body {
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
 }
 
+#projects .card:hover {
+  transform: translateY(-2px);
+  transition: 0.3s;
+}
+
 h1,
 h2,
 h5 {
@@ -48,6 +53,7 @@ h5 {
   color: #fff;
   border: none;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .btn-accent:hover {
@@ -99,6 +105,10 @@ footer {
   text-align: center;
   margin-top: 3rem;
   padding: 1rem 0;
+}
+
+div#projects h2 {
+  font-family: inherit;
 }
 
 a {
